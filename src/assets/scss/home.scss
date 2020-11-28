@@ -1,0 +1,26 @@
+@import "./theme/variables";
+@import "./theme/default";
+
+.home {
+  .title {
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 100;
+      color: $primary-color;
+
+      @media (min-width: $desktop) {
+        font-size: 4rem;
+      }
+    }
+
+    p {
+      color: $primary-color;
+    }
+  }
+
+  .btn {
+    max-width: 190px;
+  }
+}
