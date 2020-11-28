@@ -8,7 +8,7 @@ function App() {
   return (
     <Suspense fallback={<Loading />}>
       <BrowserRouter>
-        <div className="container">
+        <div className="app">
           <Switch>
             {routes.map((route) => (
               <Route

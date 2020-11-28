@@ -1,0 +1,31 @@
+@import "../variables";
+
+.background {
+  background-color: $light-side-primary;
+}
+
+.back {
+  color: $light-side-secondary;
+
+  span {
+    background-image: url("../../../images/back-light.png");
+  }
+}
+
+.btn {
+  background-color: $light-side-secondary;
+  color: $light-side-primary;
+
+  &:hover {
+    background-color: $light-side-primary;
+    color: $light-side-secondary;
+  }
+}
+
+.avatar {
+  background-image: url("../../../images/luke-skywalker.png");
+}
+
+.color {
+  color: $light-side-secondary;
+}
