@@ -6,7 +6,7 @@ import "../assets/scss/routes/master.scss";
 import light from "../assets/scss/theme/modules/_light.module.scss";
 import dark from "../assets/scss/theme/modules/_dark.module.scss";
 
-export default function _Master() {
+function _Master() {
   const response = "dark";
   const theme = response === "light" ? light : dark;
 
@@ -25,3 +25,5 @@ export default function _Master() {
     </div>
   );
 }
+
+export default _Master;
