@@ -11,7 +11,7 @@ function _Master() {
 
   useEffect(() => {
     dispatch({ type: "REQUEST_MASTER" });
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className={data.theme.background}>
