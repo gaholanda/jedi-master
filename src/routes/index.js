@@ -4,13 +4,13 @@ const routes = [
   {
     id: "home",
     exact: true,
-    path: `${process.env.PUBLIC_URL}/`,
+    path: "/",
     component: lazy(() => import("./_Home")),
   },
   {
     id: "master",
     exact: true,
-    path: `${process.env.PUBLIC_URL}/master`,
+    path: "/master",
     component: lazy(() => import("./_Master")),
   },
 ];

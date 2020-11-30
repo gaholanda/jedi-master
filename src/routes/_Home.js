@@ -14,10 +14,7 @@ function _Home() {
             </h1>
             <p>FRONTEND CHALLENGE</p>
           </div>
-          <Link
-            className="btn btn-primary"
-            to={`${process.env.PUBLIC_URL}/master`}
-          >
+          <Link className="btn btn-primary" to="/master">
             START
           </Link>
         </div>
