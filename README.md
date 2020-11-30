@@ -1,6 +1,6 @@
 # Jedi Master
 
-Demo do projeto em (Jedi Master)[https://gaholanda;github.io/jedi-master]
+Demo do projeto em (Jedi Master)[https://gaholanda.github.io/jedi-master]
 
 ## Rodar o projeto
 
