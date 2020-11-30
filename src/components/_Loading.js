@@ -2,9 +2,9 @@ import React from "react";
 
 import "../assets/scss/theme/_loading.scss";
 
-const Loading = () => (
-  <div className="progress">
-    <div className="progress-bar"></div>
+const Loading = ({ progress, progressbar }) => (
+  <div className={`progress ${progress}`}>
+    <div className={`progress-bar ${progressbar}`}></div>
   </div>
 );
 

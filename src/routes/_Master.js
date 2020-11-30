@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 
-import { Back, Button, Avatar, YourMaster } from "../components";
+import { Back, Button, Avatar, YourMaster, Loading } from "../components";
 
 import "../assets/scss/routes/master.scss";
-import light from "../assets/scss/theme/modules/_light.module.scss";
-import dark from "../assets/scss/theme/modules/_dark.module.scss";
 
 function _Master() {
-  const response = "dark";
-  const theme = response === "light" ? light : dark;
+  const dispatch = useDispatch();
+  const { data } = useSelector(({ reducers }) => reducers);
+
+  useEffect(() => {
+    dispatch({ type: "REQUEST_MASTER" });
+  }, []);
 
   return (
-    <div className={theme.background}>
+    <div className={data.theme.background}>
+      {!data.master && (
+        <Loading
+          progress={data.theme.progress}
+          progressbar={data.theme.progressbar}
+        />
+      )}
       <div className="master">
-        <Back className={theme.back} />
+        <Back className={data.theme.back} />
         <div className="flex flex--justify-center">
-          <Button className={theme.btn} />
+          <Button
+            disabled={!data.master ? true : false}
+            className={data.theme.btn}
+            onClick={() => console.log("click")}
+          />
           <div className="master--info">
-            <Avatar className={theme.avatar} />
-            <YourMaster className={theme.color} name="Luke Skywalker" />
+            <Avatar className={data.theme.avatar} />
+            {data.master && (
+              <YourMaster
+                className={data.theme.color}
+                name={data.master.name}
+              />
+            )}
           </div>
         </div>
       </div>

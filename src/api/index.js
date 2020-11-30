@@ -4,6 +4,8 @@ const API = axios.create({
   baseURL: "https://swapi.dev/api/people/",
 });
 
-const GetYourMaster = () => axios.all([API.get("1"), API.get("4")]);
+const GetLightSideMaster = () => API.get("1").then((res) => res);
 
-export { GetYourMaster };
+const GetDarkSideMaster = () => API.get("4").then((res) => res);
+
+export { GetLightSideMaster, GetDarkSideMaster };
