@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://swapi.dev/api/people/",
+  baseURL: "https://swapi.dev/api",
 });
 
-const GetLightSideMaster = () => API.get("1").then((res) => res);
+const GetLightSideMaster = () => API.get("/people/1").then((res) => res);
 
-const GetDarkSideMaster = () => API.get("4").then((res) => res);
+const GetDarkSideMaster = () => API.get("/people/4").then((res) => res);
 
 export { GetLightSideMaster, GetDarkSideMaster };
