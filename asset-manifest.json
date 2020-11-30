@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/jedi-master/static/css/main.bbce8371.chunk.css",
+    "main.js": "/jedi-master/static/js/main.391400a5.chunk.js",
+    "main.js.map": "/jedi-master/static/js/main.391400a5.chunk.js.map",
+    "runtime-main.js": "/jedi-master/static/js/runtime-main.98e6b7b8.js",
+    "runtime-main.js.map": "/jedi-master/static/js/runtime-main.98e6b7b8.js.map",
+    "static/js/2.d8f15d4b.chunk.js": "/jedi-master/static/js/2.d8f15d4b.chunk.js",
+    "static/js/2.d8f15d4b.chunk.js.map": "/jedi-master/static/js/2.d8f15d4b.chunk.js.map",
+    "static/css/3.71b8b41c.chunk.css": "/jedi-master/static/css/3.71b8b41c.chunk.css",
+    "static/js/3.39f9b196.chunk.js": "/jedi-master/static/js/3.39f9b196.chunk.js",
+    "static/js/3.39f9b196.chunk.js.map": "/jedi-master/static/js/3.39f9b196.chunk.js.map",
+    "static/css/4.266ba47c.chunk.css": "/jedi-master/static/css/4.266ba47c.chunk.css",
+    "static/js/4.116454a4.chunk.js": "/jedi-master/static/js/4.116454a4.chunk.js",
+    "static/js/4.116454a4.chunk.js.map": "/jedi-master/static/js/4.116454a4.chunk.js.map",
+    "index.html": "/jedi-master/index.html",
+    "static/css/3.71b8b41c.chunk.css.map": "/jedi-master/static/css/3.71b8b41c.chunk.css.map",
+    "static/css/4.266ba47c.chunk.css.map": "/jedi-master/static/css/4.266ba47c.chunk.css.map",
+    "static/css/main.bbce8371.chunk.css.map": "/jedi-master/static/css/main.bbce8371.chunk.css.map",
+    "static/js/2.d8f15d4b.chunk.js.LICENSE.txt": "/jedi-master/static/js/2.d8f15d4b.chunk.js.LICENSE.txt",
+    "static/media/_dark.module.scss": "/jedi-master/static/media/darth-vader.5b59175e.png",
+    "static/media/_light.module.scss": "/jedi-master/static/media/luke-skywalker.7ac8850b.png",
+    "static/media/_default.module.scss": "/jedi-master/static/media/master.db1723c1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98e6b7b8.js",
+    "static/js/2.d8f15d4b.chunk.js",
+    "static/css/main.bbce8371.chunk.css",
+    "static/js/main.391400a5.chunk.js"
+  ]
+}
