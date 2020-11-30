@@ -1,0 +1,39 @@
+@import "../variables";
+
+.background {
+  background-color: $dark-side-primary;
+}
+
+.progress {
+  background-color: $dark-side-secondary;
+}
+
+.progress-bar {
+  background-color: $dark-side-primary;
+}
+
+.back {
+  color: $dark-side-secondary;
+
+  span {
+    background-image: url("../../../images/back-dark.png");
+  }
+}
+
+.btn {
+  background-color: $dark-side-secondary;
+  color: $dark-side-primary;
+
+  &:hover {
+    background-color: $dark-side-primary;
+    color: $dark-side-secondary;
+  }
+}
+
+.avatar {
+  background-image: url("../../../images/darth-vader.png");
+}
+
+.color {
+  color: $dark-side-secondary;
+}

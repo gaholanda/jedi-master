@@ -1,0 +1,30 @@
+@import "../theme/variables";
+@import "../theme/default";
+
+.home {
+  .flex {
+    flex-direction: column;
+  }
+
+  .title {
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 100;
+      color: $primary-color;
+
+      @media (min-width: $desktop) {
+        font-size: 72px;
+      }
+    }
+
+    p {
+      color: $primary-color;
+    }
+  }
+
+  .btn {
+    max-width: 190px;
+  }
+}
