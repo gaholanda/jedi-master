@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 ReactDOM.render(
-  <BrowserRouter basename={"jedi-master"}>
+  <BrowserRouter basename={"/jedi-master"}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
